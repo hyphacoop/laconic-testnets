@@ -1,3 +1,3 @@
 # Laconic Testnets
 
-* [Hypha devnet](/devnet/README.md)
+* [Hypha Laconic Devnet](/devnet/README.md)
