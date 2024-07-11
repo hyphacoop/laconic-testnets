@@ -1,2 +1,1 @@
-# laconic-testnets
-Laconic Testnets Information
+# Laconic Testnets
