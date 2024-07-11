@@ -20,7 +20,7 @@ The following steps will configure and start containers to run:
 * laconic-registry-cli
 
 1. Set up Docker and laconic-so in your machine using [this script](https://raw.githubusercontent.com/cerc-io/stack-orchestrator/main/scripts/quick-install-linux.sh).
-2. Use Stack Orchestrator to configure and start `laconicd` and `laconic-console` containers using [this script]([setup-containers.sh](https://github.com/hyphacoop/laconic-testnets/raw/main/devnet/setup-containers.sh)).
+2. Use Stack Orchestrator to configure and start `laconicd` and `laconic-console` containers using [this script](https://github.com/hyphacoop/laconic-testnets/raw/main/devnet/setup-containers.sh).
 3. To confirm the node is online, check the log using this command:
    ```
    laconic-so deployment --dir testnet-laconicd-deployment logs laconicd -f
