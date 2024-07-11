@@ -7,7 +7,7 @@ This chain will be restarted regularly.
 * Genesis: [genesis.json](genesis.json)
 * Binary repo: https://git.vdb.to/cerc-io/laconic2d
 * Binary version: [9dc84ef943](https://git.vdb.to/cerc-io/laconic2d/commit/9dc84ef9438e32a40df4274de79f72abe6d6d9a7)
-* Peers
+* Persistent peers
   ```
   96ee440163f4d7c194be63e00d90ade9152b4469@devnet.l.stg.earthball.xyz:26656
   ```
