@@ -11,6 +11,8 @@ This chain will be restarted regularly.
   ```
   96ee440163f4d7c194be63e00d90ade9152b4469@devnet.l.stg.earthball.xyz:26656
   ```
+* RPC endpoints
+  * http://devnet.l.stg.earthball.xyz:26657
 
 ## How to Join
 
