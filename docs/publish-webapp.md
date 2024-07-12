@@ -71,7 +71,7 @@ laconic-so deployment --dir fixturenet-laconicd-deployment exec laconicd "laconi
 
 ## Register an Application Deployment Record
 
-A Service Provider must register an Application Deployment Record DNS record after a successful deployment.
+A Service Provider must register an Application Deployment Record after a successful deployment.
 
 * Copy [`application-deployment.yml`](application-deployment.yml) to `laconic-console-deployment/data/laconic-registry-data/application-deployment.yml`
 * Register the DNS record using `laconic-registry-cli`:
