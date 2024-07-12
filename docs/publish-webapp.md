@@ -15,7 +15,7 @@ At a high level, the steps are:
 10. [On-chain] Create a bond to register an Application Deployment Record.
 11. [On-chain] Register an Application Deployment Record.
 
-![Webapp deployment workflow diagram](./publish-webapp-workflow.svg)
+[![Webapp deployment workflow diagram](./publish-webapp-workflow.jpg)](./publish-webapp-workflow.svg)
 
 ## Prerequisites
 
