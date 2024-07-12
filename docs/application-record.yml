@@ -1,0 +1,18 @@
+record:
+  type: ApplicationRecord
+  version: 0.0.1
+  name: hypha-demo-app
+  description: "An example app"
+  homepage: http://hypha.coop
+  license: license
+  author: author
+  repository:
+    - "https://hypha.demo.repo"
+  repository_ref: "v0.1.0"
+  app_version: "0.1.0"
+  app_type: "webapp"
+  meta:
+    foo: bar
+  tags:
+    - a
+    - b
