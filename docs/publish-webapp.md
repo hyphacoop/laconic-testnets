@@ -15,6 +15,8 @@ At a high level, the steps are:
 10. [On-chain] Create a bond to register an Application Deployment Record.
 11. [On-chain] Register an Application Deployment Record.
 
+![Webapp deployment workflow diagram](./publish-webapp-workflow.svg)
+
 ## Prerequisites
 
 * Deploy the `laconicd` and `laconic-registry-cli` containers using the script in the [How to Join](/devnet/README.md#how-to-join) section of the README.
