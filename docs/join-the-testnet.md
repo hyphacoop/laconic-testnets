@@ -6,7 +6,7 @@
 * Chain ID: TBA
 * Denom: TBA
 * Binary repo: https://git.vdb.to/cerc-io/laconic2d
-* Binary version: TBA
+* Binary version: [`v0.1.0`](https://git.vdb.to/cerc-io/laconic2d/releases/tag/v0.1.0) (commit `4c0cb6c2c4`)
 * Persistent peers: TBA
 * RPC endpoints: TBA
 * Block explorer: TBA
