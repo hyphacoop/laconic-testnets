@@ -17,7 +17,7 @@ At a high level, the steps are:
 
 ## Prerequisites
 
-* Deploy the `laconicd` and `laconic-registry-cli` containers using the script in the [How to Join](/devnet/README.md#how-to-join) section of the README.
+* Start the `laconicd` and `laconic-registry-cli` containers using the script in the [How to Join](/devnet/README.md#how-to-join) section of the README.
 * Configure the `laconic-registry-cli` container with a private key.
 
 ## Set up Service Provider Infrastructure
