@@ -29,9 +29,27 @@ Get `laconic-so` in the path (you can also log off and on after running the abov
 source ~/.profile
 ```
 
-Clone the testnet stack repo and required repositories.
+Clone the testnet stack repo.
 ```
 laconic-so fetch-stack git.vdb.to/cerc-io/testnet-laconicd-stack
+```
+
+Set the laconicd version in `~/cerc/testnet-laconicd-stack/stack-orchestrator/stacks/testnet-laconicd/stack.yml`.
+```
+version: "1.0"
+name: testnet-laconicd
+description: "Laconicd full node"
+repos:
+  - git.vdb.to/cerc-io/laconic2d@v0.1.0
+containers:
+  - cerc/laconic2d
+pods:
+  - testnet-laconicd
+```
+
+
+Set up the repositories.
+```
 laconic-so --stack ~/cerc/testnet-laconicd-stack/stack-orchestrator/stacks/testnet-laconicd setup-repositories
 laconic-so --stack ~/cerc/testnet-laconicd-stack/stack-orchestrator/stacks/laconic-console setup-repositories
 ```
