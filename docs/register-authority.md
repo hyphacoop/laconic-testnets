@@ -12,7 +12,7 @@ This guide demonstrates how to register an authority using `laconic-registry-cli
 
 ## Register an Authority
 
-* Reserve the name with the account previously configured in `laconci-registry-cli`.
+* Reserve the name with the account previously configured in `laconic-registry-cli`.
 ```
 laconic-so deployment --dir laconic-console-deployment exec cli "laconic registry authority reserve loro"
 {"success": true}
