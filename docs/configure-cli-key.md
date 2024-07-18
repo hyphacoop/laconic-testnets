@@ -9,7 +9,7 @@ This guide demonstrates how to configure `laconic-registry-cli`.
 
 ## Configuration 
 
-## 1. Stop the laconic-registry-cli container
+## Stop the laconic-registry-cli container
 ```
 laconic-so deployment --dir laconic-console-deployment stop
 ```
