@@ -3,13 +3,15 @@
 This page outlines the workflow for publishing a webapp through a Laconic chain. 
 
 At a high level, the steps are:
+
 1. Publish a webapp to a public repo.
-2. [On-chain] Register an Application Record.
-3. [On-chain] Register an Application Deployment Request.
-4. Set up Service Provider infrastructure.
-5. Deploy the app using the data from the deployment request.
-6. [On-chain] Register a DNS Record.
-7. [On-chain] Register an Application Deployment Record.
+2. [On-chain] Register an Authority.
+3. [On-chain] Register an Application Record.
+4. [On-chain] Register an Application Deployment Request.
+5. Set up Service Provider infrastructure.
+6. Deploy the app using the data from the deployment request.
+7. [On-chain] Register a DNS Record.
+8. [On-chain] Register an Application Deployment Record.
 
 > A bond is required to register a record. Follow [this guide](./create-bond.md) to create a bond if you need one.
 
@@ -18,11 +20,12 @@ At a high level, the steps are:
 ## Prerequisites
 
 * Start the `laconicd` and `laconic-registry-cli` containers using the script in the [How to Join](/devnet/README.md#how-to-join) section of the README.
-* Configure the `laconic-registry-cli` container with a private key.
+* Configure the `laconic-registry-cli` container with a private key as shown [here](./configure-cli-key.md).
 
-## Set up Service Provider Infrastructure
+## Register an Authority
 
-A Service Provider must be running infrastructure and software that is able to detect new Application Deployment Requests and deploy applications as requested.
+An authority must be registered in the Laconic chain for app deployment requests to reference it.
+* See [this page](./register-authority.md) for instructions.
 
 ## Register an Application Record
 
@@ -49,6 +52,11 @@ laconic-so deployment --dir laconic-console-deployment exec cli "laconic registr
   "id": "bafyreia4skpopfqre3j4romwmbtydgb5d53e2g2pvfd4kedjr7kwtrcb7u"
 }
 ```
+
+## Set up Service Provider Infrastructure
+
+A Service Provider must be running infrastructure and software that is able to detect new Application Deployment Requests and deploy applications as requested.
+
 
 ## Register a DNS Record
 
